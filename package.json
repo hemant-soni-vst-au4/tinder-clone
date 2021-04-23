@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hemant-soni-vst-au4/tinder-clone/issues"
   },
-  "homepage": "https://github.com/hemant-soni-vst-au4/tinder-clone#readme"
+  "homepage": "https://github.com/hemant-soni-vst-au4/tinder-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
