@@ -4,7 +4,6 @@ function App() {
   return (
     //BEM class convention
     <div className="app">
-      <h1>LEts build</h1>
       <Header />
       {/** HEADER
        * Tinder card
