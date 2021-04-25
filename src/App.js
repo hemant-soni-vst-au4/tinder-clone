@@ -1,6 +1,6 @@
 import './App.css';
 import Header from "./Header";
-import TinderCard from './TinderCard';
+import TinderCards from './TinderCards';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     //BEM class convention
     <div className="app">
       <Header />
-      <TinderCard />
+      <TinderCards />
       {/** HEADER
        * Tinder card
        * swipebutton
