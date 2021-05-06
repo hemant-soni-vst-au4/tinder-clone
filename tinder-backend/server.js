@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import Cards from './dbCards.js';
+import Cors from 'cors';
 
 //App configurable
 
@@ -10,6 +11,8 @@ const connection_url = "mongodb+srv://hemant:2834@cluster0.sasse.mongodb.net/tin
 
 
 //middleware
+app.use(express.json());
+app.use(Cors());
 
 // DB config
 mongoose.connect(connection_url, {
